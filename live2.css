@@ -1,0 +1,78 @@
+div.column {
+    float: center;
+    width: 80%;
+    padding: 0px;
+    height:1900px;
+}
+.right{
+    float: right;
+    width:25%;
+}
+.left{
+    float:left;
+    width:25%
+}
+.center{
+    float:left;
+    width:50%
+}
+#entertainment{
+    transform: translate(0%,0%);
+}
+#title1{
+    transform: translate(15%,50%);
+    font-size:72px;
+    font-family: 'Playfair Display', serif;
+}
+#titleLE{
+    transform: translate(25%,70%);
+    font-size:48px;
+    font-family: 'Playfair Display', serif;
+}
+body {
+    background-image: url("https://img00.deviantart.net/da64/i/2008/306/e/b/starry_sky_stock_by_budgie.jpg");
+}
+#video1{
+    transform: translate(9%,15%);
+}
+#cap1{
+    transform: translate(7%,145%);
+    font-size:22px;
+    font-family: 'Playfair Display', serif;
+}
+#wholecol{
+    transform: translate(40%,10%);
+}
+#group{
+    transform: translate(10.5%,30%);
+}
+#cap2{
+    transform: translate(7%,295%);
+    font-size:22px;
+    font-family: 'Playfair Display', serif;
+}
+#entertainment{
+    background-color:#3C1642;
+}
+#tab{
+    height:350px;
+    width: 350px;
+    transform: translate(-185%,-327%);
+}
+#yay{
+    transform: translate(10%,10%);
+    font-size:30px;
+}
+#yes{
+    transform: translate(-120%,-320%);
+    font-family: 'Fjalla One', sans-serif;
+    font-size:36px;
+}
+#video2{
+    transform: translate(9%,-40%);
+}
+#cap3{
+    transform: translate(7%,-250%);
+    font-size:22px;
+    font-family: 'Playfair Display', serif;
+}

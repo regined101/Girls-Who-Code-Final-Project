@@ -1,0 +1,66 @@
+.handle {
+transform: translate(-15%,15%);
+}
+.insta{
+  float:left;
+}
+.button{
+    background-color:#B2FF9E;
+    padding: 28px 85px;
+}
+ body{
+     background-color: white;
+    font-family: 'Montserrat', sans-serif;
+ }
+ div.a {
+    text-align: center;
+}
+div.box {
+    display: flex;
+    align-items:center;
+ }
+div.box2 {
+    display: flex;
+    align-items:center;
+ }
+#face{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+#insta{
+     padding-top: 10px;
+    padding-right: 10px;
+}
+#phone{
+     padding-top: 10px;
+    padding-right: 10px;
+    transform: translate(0%,-23%);
+}
+#contact-info{
+    transform: translate(21%,25%);
+}
+#map{
+    height: 300px;
+    width:350px;
+    transform: translate(5%,0%);
+}
+#location{
+    padding-bottom: 20px;
+    transform: translate(0%,50%);
+}
+#contact-page{
+    overflow-x: hidden;
+}
+#buisnesshours{
+   font-size: 20px; 
+    
+}
+#address{
+    font-size:20px;
+}
+#af{
+    font-family: 'Roboto Slab', serif;
+}
+#bh{
+    font-family: 'Roboto Slab', serif;
+}

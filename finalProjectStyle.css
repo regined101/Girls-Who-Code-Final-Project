@@ -1,0 +1,304 @@
+*
+{
+    margin:0;
+    padding:0;
+    
+}
+
+#navbar
+{
+    background-color:transparent;
+    max-width:1500px;
+    margin:0 auto;
+    font-weight: none;
+     font-size:12px;
+}
+
+body
+{
+    font-family: 'Rokkitt', serif;
+
+}
+
+.hero
+{
+    position:absolute;
+    width:800px;
+    top:50%;
+    left:50%;
+    transform: translate(-10%,-50%);
+    font-size: 0px;
+}
+
+#header
+{
+    background-attachment: fixed;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    height: 700px;
+    width: 1300px;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+h1
+{
+    color:white;
+}
+
+.main-nav
+{
+    list-style: none;
+    float:right;
+    margin-top:50px;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 50px  ;
+
+}
+
+.main-nav li a:hover
+{
+    color:#765373;
+    border-bottom:2px solid #765373;
+    transition: all 0.3s ease-in;
+    padding: 15px 0;
+}
+.main-nav li a
+{
+    color:#97C33C;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.logo img
+{
+    height: 80px;
+    float:left;
+    margin-top: 20px;
+}
+
+.btn
+{
+    border:1px solid #97C33C;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #97C33C;
+}
+
+.button{
+    margin-top:50px;
+}
+
+.title{
+    font-size: 104px;
+    color: white;
+    font-weight: bold;
+}
+.copy
+{
+    width:70%;
+    margin-left: 15%;
+}
+.features h3{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+h3:after{
+   width:100px;
+    height:2px;
+    background-color: #765373;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.display-1
+{
+    color:#97C33C;
+    font-style: italic;
+    transform: translate(-75%,0%);
+    font-size: 64px;
+    float: right;
+     padding-top: 35px;
+    font-weight: 600;
+ 
+    
+}
+.row1
+{
+    background-color: white;
+    max-width:1000px;
+    margin:10px auto;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("https://78.media.tumblr.com/b1a7f3c3019e2d0dcda18e456ad44cf6/tumblr_nm3vsdtXpu1sx3znro1_500.gif");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1
+{
+   color: #020b2a;
+}
+.parallax1 { 
+    /* The image used */
+    background-image: url("http://cdn.liquor.com/wp-content/uploads/2016/11/16132015/margarita-rocks-salt-1200FB.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.benefits{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+.kavaImage{
+    height: 10px;
+    padding-top: 25px;
+    padding-right:15px;
+    transform: translate(20%,35%);
+}
+.paragraph1
+{
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+.benefitsTitle
+{
+    color:#97C33C;
+    font-style: italic;
+    transform: translate(-75%,0%);
+    font-size: 64px;
+    float: right;
+    padding-top: 35px;
+    font-weight: 600;
+}
+.benefitsPic
+{
+    height:10px;
+    padding-top: 65px;
+    transform: translate(-150%,200%);
+   
+}
+.benefitsText{
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+.col-sm-8{
+    padding-top: 150px;
+   transform: translate(40%,-10%);
+    font-size:16px;
+}
+.container-fluid{
+    padding-left:20px;
+}
+.col-sm-4{
+    height:10px;
+}
+.menuTitle{
+    font-size: 32px;
+    font-weight: bold;
+}
+.menuItems{
+    font-size:22px;
+}
+.list{
+    font-size:32px;
+}
+.col img{
+    padding-top: 15px;
+    padding-left: 30px;
+    height:120px;
+}
+.col-6{
+    padding-top: 30px;
+    font-size:16px;
+}
+.col{
+    padding-top:30px;
+}
+#home-page{
+   overflow-x: hidden;
+    overflow-y: hidden;
+}
+#menu-page{
+     overflow-x: hidden;
+}
+#menu-btn{
+    transform: translate(30%,500%);
+}
+#nav-style{
+    transform: translate(-5%,0%);
+}
+.parallax2 { 
+    /* The image used */
+    background-image: url("file:///C:/Users/Girls%20Who%20Code/Documents/GWC%20Final%20Project/nb1.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container-au{
+    transform: translate(50%,170%);
+}
+#about-us-body{
+    overflow-x: hidden;
+}
+#quote{
+    transform: translate(25%,400%);
+}
+.nb-q{
+    font-size: 100px;
+    transform: translate(-70%,-40%);
+    font-family: 'Pacifico', cursive;
+
+}
+.nowrap {
+  white-space: nowrap ;
+}
+#quote1{
+    font-size:22px;
+    font-family: 'Rokkitt', serif;
+}
+#gallery{
+    transform: translate(10%,88%);
+}
+#gallery1{
+    transform: translate(2%,70%);
+}
+.galleryphotos{
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+.galleryphotos1{
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
